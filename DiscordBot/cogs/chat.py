@@ -96,7 +96,7 @@ def stab(msg):
     
 #magic 8Ball function, returns one of the arraries
 def magic8Ball():
-    results =["It is certain","Without a doubt", "Yeah cunt maybe", "Yeah the boys it is","Ask again later","Yeah...Nahh...","Very doubtful","I must say no dude"]
+    results =["It is certain","Without a doubt", "Yeah maybe", "Yeah the boys it is","Ask again later","Yeah...Nahh...","Very doubtful","I must say no dude"]
     randomInt = randint(0,7)
     return results[randomInt]
 
@@ -117,23 +117,7 @@ helloText = ["G'day", "It’s nice to meet you,", "Bonjour", "Ciao", "Guten Tag"
              "OLÀ", "Konnichiwa", "It’s a pleasure to meet you,","Howdy,",
              "What's new,", "What's up,"]
 
-louisStatements = ["Trying to solo carry <:haHAA:322557800729411595>",
-                   "I carried <:haHAA:322557800729411595>",
-                   "Give me my blue buff <:FeelsPepoMan:322306831961817090>",
-                   "Hobday is so retarded",
-                   "Dont ks my penta <:FeelsPepoMan:322306831961817090>",
-                   "Honour me <:FeelsPepoMan:322306831961817090>",
-                   "I solo carried btw",
-                   "Fucking homosexuals",
-                   "I would carry this game so hard if only I wasn't lagging.",
-                   "That champion is so lame",
-                   "Stop taking my cs",
-                   "What the fuck, I didn't crit?",
-                   "All of you faggots better honour me, I carried so hard.",
-                   "I don't care about honours btw.",
-                   "My emotes are so good",
-                   "My emotes are bad? Look at Toms",
-                   "I didn't just fill the entire servers emotes with trash emotes at all"]
+louisStatements = ["Trying to solo carry <:haHAA:322557800729411595>"]
                    
                    
 

@@ -44,7 +44,7 @@ class Moderator:
                     string = "Member: "+member.name+"\n\nHas been kicked!"
                     await self.bot.say(string)
             else:
-                await self.bot.say('Fuck off cunt. Just because you did that you lost your verified status.')
+                await self.bot.say('Just because you did that you lost your verified status.')
         else:
             await self.bot.say('You do not have the permissions required to use this command. Contact someone who is verified or an admin if you need help.')
 
@@ -103,7 +103,7 @@ class Moderator:
             await asyncio.sleep(60)
             await self.bot.remove_roles(member, roles)
         else:
-            await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I fucked up.')
+            await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I stuffed up.')
 
 
     @commands.command(pass_context=True, no_pm=True, description="unmutes messages")
@@ -119,7 +119,7 @@ class Moderator:
                 string = "Member: "+member.name+"\n\nHas been unmuted!"
                 await self.bot.say(string)
             else:
-                await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I fucked up.')
+                await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I stuffed up.')
         except:
             await self.bot.say('Errr, just get Tom to do it manually')
 
@@ -147,6 +147,6 @@ class Moderator:
                 string = "Member: "+user.name+"\n\nHas been banned!"
                 await self.bot.say(string)
             else:
-                await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I fucked up.')
+                await self.bot.say('Either two things happened mate.\n1. You do not have permissions to use this command.\n2. I stuffed up.')
         except:
             await self.bot.say('Errr, just get Tom to do it manually')

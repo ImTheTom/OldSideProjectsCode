@@ -2,7 +2,7 @@
 
 # Discord Bot
 
-The bot that was created was mainly for my own server and for my own side project. 
+The bot that was created was mainly for my own server and for my own side project.
 
 This code is a prime example of
 * Functions doing multiple things (which is bad)

@@ -94,7 +94,7 @@ def googleSearch(url):
         message= "Search URL: "+url+"\n\nResults: "+results+".\n\nFirst URL: "+link+"\n\nTitle: "+string+".\n\nDescription: "+d
         return message
     except:
-        message = "Something went wrong here. Either I fucked up or you fucked up. My money is on you that fucked it up."
+        message = "Something went wrong here. Either I stuffed up or you stuffed up. My money is on you that stuffed it up."
         return message
 
 def urbanSearch(url):
@@ -147,7 +147,7 @@ def urbanSearch(url):
         string = links+"\n\nMeaning: \n" + meaning+"\n\nExamples: \n"+example+"\n\nTags: "+tags+"\n\nAuthor: "+author+".\nDate: "+date+".\nLikes: "+str(likes)+ ". Dislikes: "+str(dislikes)+".\n\nURL: "+url
         return string
     except:
-        string = "Something went wrong here. Either I fucked up or you fucked up. My money is on you that fucked it up."
+        string = "Something went wrong here. Either I stuffed up or you stuffed up. My money is on you that stuffed it up."
         return string
 
 def opSearch(url):
@@ -209,7 +209,7 @@ def opSearch(url):
         string = name+"\n\nRank Solo: "+rankSolo+". Rank Flex: "+flex+".\nWins: "+wins+". Losses: "+loss+".\n\nChampions: "+first+", "+second+", "+third+".\n\nURL: "+url
         return string
     except:
-        string = "Something went wrong here. Either I fucked up or you fucked up. My money is on you that fucked it up."
+        string = "Something went wrong here. Either I stuffed up or you stuffed up. My money is on you that stuffed it up."
         return string
 
 def stripSpaces(string):
